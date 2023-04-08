@@ -1,0 +1,57 @@
+{
+  "id": "home",
+  "label": "home",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "home",
+          "placeholder": ""
+        }
+      },
+      "hometitle": {
+        "type": "Text",
+        "config": {
+          "label": "hometitle",
+          "placeholder": ""
+        }
+      },
+      "homedescription": {
+        "type": "StructuredText",
+        "config": {
+          "label": "homedescription",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "homebanner": {
+        "type": "Image",
+        "config": {
+          "label": "homebanner",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "bannerdescription": {
+        "type": "StructuredText",
+        "config": {
+          "label": "bannerdescription",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

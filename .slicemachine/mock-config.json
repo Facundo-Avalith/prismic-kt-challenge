@@ -1,0 +1,52 @@
+{
+  "_cts": {
+    "navigation": {
+      "links": {
+        "label": {
+          "config": {
+            "patternType": "HEADING",
+            "blocks": 1
+          }
+        }
+      }
+    },
+    "article": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "settings": {
+      "name": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "home": {},
+    "post": {},
+    "productspage": {},
+    "postspage": {}
+  },
+  "slices": {
+    "Product": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Post": {
+      "default": {
+        "items": {}
+      }
+    }
+  }
+}

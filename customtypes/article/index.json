@@ -1,0 +1,64 @@
+{
+  "id": "article",
+  "label": "Product",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": "URL slug for the article"
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "Title of the article",
+          "allowTargetBlank": false,
+          "single": "heading1"
+        }
+      },
+      "featuredImage": {
+        "type": "Image",
+        "config": {
+          "label": "Featured Image",
+          "constraint": {
+            "width": 2000,
+            "height": 1500
+          },
+          "thumbnails": []
+        }
+      },
+      "publishDate": {
+        "type": "Date",
+        "config": {
+          "label": "Publish Date",
+          "placeholder": "Date the article was published"
+        }
+      },
+      "featured": {
+        "type": "Boolean",
+        "config": {
+          "label": "featured",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "product": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}
